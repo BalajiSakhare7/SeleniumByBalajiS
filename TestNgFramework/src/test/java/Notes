@@ -1,0 +1,55 @@
+TestNg:
+
+It is a unit test framework
+it is Test Driven Development
+
+
+Purpose: To design test cases in systematic way 
+
+--It provide different annotations:
+--provide html reports
+--provide test execution priority/sequences
+--Can maintain dependency
+--Data Provider
+
+testNG open source free jar files, its Java unit testing framework, we can not use it with any othercoding languages languages
+
+ 
+ 
+ Installation:
+ 1> First install TestNg plugin for eclipse from url: http://beust.com/eclipse
+ 
+ Annotations: As Per preference
+ 
+ Pre-Conditions Annotation
+ 
+ 1> @BeforeSuite
+ 2> @BeforeTest
+ 3> @BeforeClass 
+ 4> @BeforeMethods
+ 
+ test case
+ 4-5>	@Test
+ 
+ Post Conditions Annotations
+ 
+ 8> @AfterSuite
+ 6> @AfterClass
+ 7> @AfterTest
+ 5> @AfterMethod
+ 
+ 
+ pair create with @BeforeMethod, @Test, @AfterMethods 
+ 
+ Skip test using
+ 
+ @Test(enabled=false)
+ 
+ or 
+ 
+ throw new SkipExceptions("message")
+ 
+ 
+ 
+ 
+
